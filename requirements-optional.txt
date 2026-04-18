@@ -1,0 +1,11 @@
+# Optional LLM provider dependencies
+# Install the packages for the LLM provider you intend to use.
+#
+# Anthropic/Claude (langchain-anthropic requires langchain-core>=0.3.0,
+# which conflicts with the pinned langchain-core in requirements.txt.
+# Install langchain-anthropic after the base install; pip will upgrade
+# langchain-core automatically):
+langchain-anthropic
+#
+# HuggingFace:
+langchain-huggingface
